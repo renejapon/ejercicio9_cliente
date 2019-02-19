@@ -17,14 +17,19 @@ gulp.task('jade-comp', function() {
     .pipe(gulp.dest('public'));
 });
 
+gulp.task('js-comp', function() {
+    return gulp.src(['./source/js/main.js'])
+    .pipe(gulp.dest('public/lib/js/'));
+});
+
 //	COMBINACIÓN DE TAREAS con escuchas
 /*
 *	SCSS-JADE-JS (todo minificado)
 */
 gulp.task('cjj-min', [ 'jade-comp'], function () {
 	// gulp.watch('source/sass/*.scss', ['styles-min']);
-	gulp.watch(['source/jade/*.jade','source/jade/components/*.jade'], ['jade-comp']).on("change", browserSync.reload);;
-	// gulp.watch(['source/js/source/main.js', 'js/components/*.js'], ['jsfull']);
+	gulp.watch(['source/jade/*.jade','source/jade/components/*.jade','source/jade/partials/*.jade'], ['jade-comp']).on("change", browserSync.reload);
+	gulp.watch(['source/js/main.js', 'source/js/components/*.js'], ['js-comp']).on("change", browserSync.reload);
 	browserSync.init({
 		server: {
 			baseDir: "./public"

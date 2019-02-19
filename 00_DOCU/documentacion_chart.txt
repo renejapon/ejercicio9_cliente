@@ -1,0 +1,10 @@
+API CHARTS DOCUMENTATION
+
+
+
+type of data roles
+
+https://developers.google.com/chart/interactive/docs/roles
+
+
+
