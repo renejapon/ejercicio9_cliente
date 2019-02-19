@@ -8,6 +8,7 @@ https://developers.google.com/chart/interactive/docs/roles
 
 
 
+<<<<<<< HEAD
 Construir columans
 
 // INICIAMOS TABLA
@@ -38,3 +39,5 @@ var data = new google.visualization.DataTable(
            ]
    }
 )
+=======
+>>>>>>> renejapon_programacion
