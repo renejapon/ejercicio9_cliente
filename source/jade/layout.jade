@@ -1,7 +1,15 @@
-doctype html
-html
+doctype
+html(lang="es")
     head
         block title
-            title Default title
+        include partials/head.jade
     body
-        block content
+        block header
+
+        main(role="main")
+            block content
+
+        footer(role="contentinfo")
+            include partials/footer.jade
+            
+        include partials/scripts.jade
