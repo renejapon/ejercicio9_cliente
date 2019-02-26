@@ -1,0 +1,68 @@
+.portfolio_muro {
+  padding: 78px 0px;
+  background-color: #F9F9F9;
+  text-align: center;
+}
+
+.portfolio_titulo {
+  font-family: Arial, sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.portfolio_migas {
+  grid-template-columns: auto auto auto;
+  display: grid;
+  justify-content: center;
+  grid-gap: 6px;
+
+}
+
+.portfolio_texto {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+a.portfolio_texto {
+  color: black;
+}
+
+a.portfolio_texto:hover {
+  color: #FC4F4F;
+  text-decoration: none;
+}
+
+a.portfolio_texto:visited {
+  color: black;
+  text-decoration: none;
+}
+
+div.portfolio_migas p.portfolio_texto{
+  color: #B0B0B0;
+}
+
+.portfolio_mesa {
+  padding: 70px 0px 90px 0px;
+}
+
+.portfolio_contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  padding: 0px 80px;
+}
+
+.portfolio_marco {
+  height: 150px;
+  background-color: grey;
+}
+
+.portfolio_producto_info {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+div.portfolio_producto_info p.portfolio_texto {
+  color: black,
+}
