@@ -1,2 +1,6 @@
 source
 source/*
+package-lock.json
+node_modules/*
+gulpfile.js
+package.json
