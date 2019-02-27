@@ -54,8 +54,9 @@ div.portfolio_migas p.portfolio_texto{
 }
 
 .portfolio_marco {
-  height: 150px;
   background-color: grey;
+  position: relative;
+
 }
 
 .portfolio_producto_info {
@@ -65,4 +66,11 @@ div.portfolio_migas p.portfolio_texto{
 
 div.portfolio_producto_info p.portfolio_texto {
   color: black,
+}
+
+.portfolio_marco img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
 }
