@@ -57,5 +57,7 @@ img{width: 300px;height: 310px; opacity: 1; display: block; transition: .5s ease
     backface-visibility: hidden;}
 .tm-col-img:hover img{opacity: 0.3; }
 .tm-cont{position: relative;display: inline-block;text-align: center;}
-.centrado{ position: absolute; margin:auto;top: 40%; left: 30%; display: none; font-size: 20px; font-weight: bold; }
+.centrado{ position: absolute;display: none; margin:auto;top: 40%; left: 30%; font-size: 20px; font-weight: bold; }
+.centrado2{position: absolute;display: none; margin:auto;top: 40%; left: 20%; font-size: 20px; font-weight: bold;}
 .tm-col-img:hover .centrado{display: inline;}
+.tm-col-img:hover .centrado2{display: inline;}
