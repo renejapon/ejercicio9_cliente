@@ -201,7 +201,10 @@
           <img src="media/img/_MG_4300.jpg">
         </div>
 
-        <div class="portfolio_fondo_modal"></div>
+        <i class="fas fa-chevron-left portfolio_flecha_left" onclick="siguiente(-1);"></i>
+        <i class="fas fa-chevron-right portfolio_flecha_right" onclick="siguiente(+1);"></i>
+
+        <div class="portfolio_fondo_modal" onclick="cerrarModal();"></div>
       </div>
 
     </div>
@@ -244,11 +247,11 @@
         lightbox(index = n);
       }
 
-      function lightbox(index) {
+      function lightbox(n) {
         var i;
         var tarjetas = document.getElementsByClassName("portfolio_tarjeta");
-        if (index > tarjetas.length) {index = 1}
-        if (index < 1) {index = tarjetas.length}
+        if (n > tarjetas.length) {index = 1}
+        if (n < 1) {index = tarjetas.length}
         for (i = 0; i < tarjetas.length; i++) {
             tarjetas[i].style.display = "none";
         }

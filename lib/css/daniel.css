@@ -103,3 +103,24 @@ div.portfolio_producto_info p.portfolio_texto {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.portfolio_flecha_left {
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  top:50%;
+  left: 5%;
+  transform: translateY(-50%);
+  cursor: pointer;
+
+}
+
+.portfolio_flecha_right {
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  top:50%;
+  right:5%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
