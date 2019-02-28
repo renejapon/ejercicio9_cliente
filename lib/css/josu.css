@@ -53,7 +53,7 @@ span{text-decoration: none; background-color: #9ddee1;}
 .tm-col{text-align: center; padding: 10px;}
 .tm-h{margin: 60px; font-size: 46px; font-weight: 400;}
 .tm-p{font-size: 13px; color: black}
-img{width: 300px;height: 310px; opacity: 1; display: block; transition: .5s ease;
+.tm-img{width: 300px;height: 310px; opacity: 1; display: block; transition: .5s ease;
     backface-visibility: hidden;}
 .tm-col-img:hover img{opacity: 0.3; }
 .tm-cont{position: relative;display: inline-block;text-align: center;}
