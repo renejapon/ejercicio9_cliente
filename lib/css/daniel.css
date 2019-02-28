@@ -139,3 +139,40 @@ div.portfolio_producto_info p.portfolio_texto {
   transform: translateY(-50%);
   cursor: pointer;
 }
+
+/*CSS Para el footer*/
+
+footer {
+  clear: both;
+  border-style: solid;
+  border-color: #DBDBDB;
+  border-width: 1px 0 0 0;
+}
+
+.footer_contenedor {
+  padding: 75px 80px 37px 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer_apartado {
+  padding: 10px;
+}
+
+.footer_h {
+  font-weight: bold;
+}
+
+.footer_texto {
+  font-size: 14px;
+  list-style: none
+}
+
+.footer_texto a:hover p{
+  color: #FC4F4F;
+}
+
+#footer_mapa {
+  width: 100%;
+  height: 100%;
+}
