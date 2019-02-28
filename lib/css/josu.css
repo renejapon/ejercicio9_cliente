@@ -8,13 +8,12 @@ html{font-family: sans-serif;}
     font-size: 42px;
     font-weight: bold; margin: 0;}
 .cont{max-width: 1200px; padding: 150px 15px 5px 15px; margin: 0 auto;}
-h1{margin: 0;}
 .mid{max-width: 1200px; padding: 70px 20px 90px 20px; margin: auto;}
 .ht{ padding-bottom: 100px; text-align: center; font-weight: bold; margin: 0;}
 .ha{font-size: 12px; max-width: 1200px; margin: auto;}
-p{color:#777777; padding: 0;}
-a{color: black;}
-a:hover{text-decoration: none; color: red;}
+.con-p{color:#777777; padding: 0;}
+.con-a{color: black;}
+.con-a:hover{text-decoration: none; color: red;}
 .form-control{line-height: inherit; border-radius: 0px !important; width: 95%; padding: 20px; margin: 0px 0px 20px 0px;border-color: rgba(0,0,0,0.15);}
 .form{padding:40px 0 60px 0;}
 :placeholder-shown{font-size: 13px;}
@@ -43,7 +42,7 @@ top: -20px;}
 .ab-col{ text-align: center; margin: auto;}
 .ab-col-p{max-width: 800px; margin: auto;}
 .ab-p{ margin: auto !important; text-align: center;}
-span{text-decoration: none; background-color: #9ddee1;}
+.ab-sp{text-decoration: none; background-color: #9ddee1;}
 .ab-row-i{width: 100%; padding: 80px 0 0;}
 .ab-i{font-size: 35px; border: .5px solid 	#D3D3D3; border-radius: 50px; padding: 20px;}
 .ns{margin: 0 100px; background-color: black; height: 0.1px; }
