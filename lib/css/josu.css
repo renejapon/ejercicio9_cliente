@@ -1,8 +1,9 @@
+/* contacto.html */
+
 html{font-family: sans-serif;}
-*{margin: 0; padding: 0;}
 .top{background-image: url(../../media/img/bg-contact-page.jpg);
     background-repeat: repeat; background-position: center center; background-size: cover; padding: 0 !important;}
-.row{width: 100%;}
+.info{width: 100%;}
 .h1{text-align: center; 
     font-size: 42px;
     font-weight: bold; margin: 0;}
@@ -15,7 +16,7 @@ p{color:#777777; padding: 0;}
 a{color: black;}
 a:hover{text-decoration: none; color: red;}
 .form-control{line-height: inherit; border-radius: 0px !important; width: 95%; padding: 20px; margin: 0px 0px 20px 0px;border-color: rgba(0,0,0,0.15);}
-h2{padding:40px 0 60px 0;}
+.form{padding:40px 0 60px 0;}
 :placeholder-shown{font-size: 13px;}
 .btn{border-radius: 0; width: 15%; font-size: 13px; background-color: #262626; padding: 15px;}
 .info h5{font-size: 15px;}
@@ -28,3 +29,33 @@ h2{padding:40px 0 60px 0;}
 .social i{font-size: 20px; margin-right:  25px;}
 .social i:hover{color: black;}
 nav i::before{display: none;}
+
+/* Nosotros.html */
+
+.top2{ background-image: url(../../media/img/bg-title-about.jpg);
+background-repeat: no-repeat; background-position: center top; background-size: cover; padding: 0 !important;
+top: -20px;}
+.section{padding: 210px 70px 70px; margin: 0;}
+.eslogan{ color: #ffffff; font-size: 90px; font-weight: 400; line-height: 1em;}
+.about{margin: auto; padding: 80px 50px;}
+.ab-row{width: 100%;}
+.ab-h{ margin-bottom: 60px; font-size: 46px; font-weight: 400;}
+.ab-col{ text-align: center; margin: auto;}
+.ab-col-p{max-width: 800px; margin: auto;}
+.ab-p{ margin: auto !important; text-align: center;}
+span{text-decoration: none; background-color: #9ddee1;}
+.ab-row-i{width: 100%; padding: 80px 0 0;}
+.ab-i{font-size: 35px; border: .5px solid 	#D3D3D3; border-radius: 50px; padding: 20px;}
+.ns{margin: 0 100px; background-color: black; height: 0.1px; }
+.ab-i:hover{background-color: #9ddee1; }
+.team{margin: auto; padding: 0px 15px 100px;} 
+.tm-row{width: 100%; margin: auto;}
+.tm-col{text-align: center; padding: 10px;}
+.tm-h{margin: 60px; font-size: 46px; font-weight: 400;}
+.tm-p{font-size: 13px; color: black}
+img{width: 300px;height: 310px; opacity: 1; display: block; transition: .5s ease;
+    backface-visibility: hidden;}
+.tm-col-img:hover img{opacity: 0.3; }
+.tm-cont{position: relative;display: inline-block;text-align: center;}
+.centrado{ position: absolute; margin:auto;top: 40%; left: 30%; display: none; font-size: 20px; font-weight: bold; }
+.tm-col-img:hover .centrado{display: inline;}
