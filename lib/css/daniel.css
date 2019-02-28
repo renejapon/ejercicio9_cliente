@@ -7,7 +7,6 @@
 .portfolio_titulo {
   font-family: Arial, sans-serif;
   font-size: 42px;
-  font-weight: bold;
 }
 
 .portfolio_migas {
@@ -15,7 +14,6 @@
   display: grid;
   justify-content: center;
   grid-gap: 6px;
-
 }
 
 .portfolio_texto {
@@ -25,17 +23,14 @@
 }
 
 a.portfolio_texto {
-  color: black;
+  margin-bottom: 16px;
 }
 
 a.portfolio_texto:hover {
   color: #FC4F4F;
-  text-decoration: none;
 }
 
 a.portfolio_texto:visited {
-  color: black;
-  text-decoration: none;
 }
 
 div.portfolio_migas p.portfolio_texto{
@@ -54,9 +49,8 @@ div.portfolio_migas p.portfolio_texto{
 }
 
 .portfolio_marco {
-  background-color: grey;
   position: relative;
-
+  cursor: pointer;
 }
 
 .portfolio_producto_info {
@@ -68,9 +62,80 @@ div.portfolio_producto_info p.portfolio_texto {
   color: black,
 }
 
+.portfolio_hover {
+  display: none;
+  background-color: grey;
+  opacity: 0.50;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0%;
+  position: absolute;
+}
+
+.portfolio_lupa {
+  position: absolute;
+  display: none;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+}
+
 .portfolio_marco img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
 
+.portfolio_modal {
+  display: none;
+}
+
+.portfolio_contenedor_lightbox {
+  top: 0%;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+
+.portfolio_fondo_modal {
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.55;
+  position: absolute;
+  z-index: -10;
+}
+
+.portfolio_tarjeta img {
+  position: absolute;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.portfolio_flecha_left {
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  top:50%;
+  left: 5%;
+  transform: translateY(-50%);
+  cursor: pointer;
+
+}
+
+.portfolio_flecha_right {
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  top:50%;
+  right:5%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
