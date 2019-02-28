@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tineda Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
     <link rel="stylesheet" href="lib/css/all.min.css">
     <link rel="stylesheet" href="lib/css/bootstrap.min.css">
     <link rel="stylesheet" href="lib/css/style.css">
@@ -18,13 +20,26 @@
     <h1>Home </h1>
     <div id="container">
         <section class="hero">
-
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div><div class="swiper-slide">Slide 2</div><div class="swiper-slide">Slide 3</div>
+                    </div>
+                    <!-- Add swiper navigation  -->
+                    <div class="wrap_swipper_navegation">
+                        <span class="swiper-button-next">Adelante</span>
+                        <span class="swiper-button-prev">Atras</span>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
         </section>
     </div>
 
 
     <footer></footer>
     <script src="lib/js/jquery-3.3.1.min.js"></script>
+    <script src="lib/js/swiper.min.js"></script>
     <script src="lib/js/fontawesome.min.js"></script>
     <script src="lib/js/bootstrap.min.js"></script>
     <script src="lib/js/Ayuda.js"></script>
