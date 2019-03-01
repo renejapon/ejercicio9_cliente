@@ -20,17 +20,17 @@
   font-family: Arial, sans-serif;
   font-size: 13px;
   font-weight: bold;
+  color: #777777;
 }
 
 a.portfolio_texto {
+  color: black;
+  text-decoration: none;
   margin-bottom: 16px;
 }
 
-a.portfolio_texto:hover {
+a:hover.portfolio_texto {
   color: #FC4F4F;
-}
-
-a.portfolio_texto:visited {
 }
 
 div.portfolio_migas p.portfolio_texto{
