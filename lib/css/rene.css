@@ -34,7 +34,7 @@
     box-shadow:0 0 50px 0 rgba(255, 22,2, 0.8);
 }
 
-.wrap_offer_count .counter_back div{
+.wrap_offer_count .counter_back div{ 
     display:inline-block;
     background-color:white;
     border-radius: 50px;
@@ -69,42 +69,88 @@
 
 
 
+
+
+/* ESTILOS POPUP SUSCRIBETE */
+.box_suscribete_popup{
+  width:60%;
+  height:auto;
+  position: absolute;
+  margin:0 auto;
+  background-color:#000000;
+  color:#ffffff;
+  top:20%;
+  left:20%;
+}
+
+.box_suscribete_popup .wrap_content{
+  display:flex;
+  flex-direction:row;  
+  justify-content: space-between;
+}
+.box_suscribete_popup .btn_cerrar{
+    position: absolute;
+    right:10px;
+    top:10px;
+    background-color:white;
+    border-radius:7px;    
+    padding:5px;
+}
+
+.btn_cerrar a{
+    color:black;
+}
+
+
+
+/* //ESTILOS POPUP SUSCRIBETE */
+
+
+
+
 /* ESTILOS FOOTER. */
 footer {
-  clear: both;
-  border-style: solid;
-  border-color: #DBDBDB;
-  border-width: 1px 0 0 0;
-}
-  
-.footer_contenedor {
-  padding: 75px 80px 37px 80px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
+    clear: both;
+    border-style: solid;
+    border-color: #DBDBDB;
+    border-width: 1px 0 0 0;
+  }
 
-.footer_apartado {
-  padding: 10px;
-}
+  .footer_contenedor {
+    padding: 75px 80px 37px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
 
-.footer_h {
-  font-weight: bold;
-}
+  .footer_apartado {
+    padding: 10px;
+  }
 
-.footer_texto {
-  font-size: 14px;
-  list-style: none
-}
+  .footer_h {
+    font-weight: bold;
+  }
 
-.footer_texto a:hover p{
-  color: #FC4F4F;
-}
-.footer_texto i{
+  .footer_texto {
+    font-size: 14px;
+    list-style: none;
+    color: #777777;
+  }
+
+  .footer_texto a {
+    text-decoration: none;
+    color: #777777;
+  }
+
+  .footer_texto a:hover p{
+    color: #FC4F4F;
+  }
+
+  .footer_texto i{
     margin-right:20px;
-}
+  }
 
-#footer_mapa {
-  width: 100%;
-  height: 100%;
-}
+  #footer_mapa {
+    width: 100%;
+    height: 100%;
+  }
 /* // ESTILOS FOOTER. */
