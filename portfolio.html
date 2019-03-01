@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tineda Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
     <link rel="stylesheet" href="lib/css/all.min.css">
     <link rel="stylesheet" href="lib/css/bootstrap.min.css">
     <link rel="stylesheet" href="lib/css/style.css">
     <link rel="stylesheet" href="lib/css/daniel.css">
     <link rel="stylesheet" href="lib/css/josu.css">
     <link rel="stylesheet" href="lib/css/rene.css">
-    
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCD_4cg9lDHRLPSOuKyOOFYoyGt_a80u98"></script>
@@ -337,29 +338,6 @@
       });
 
     </script>
-
-    <script>
-
-      $(document).ready(function(){
-
-        mostrarMapa();
-      });
-
-      function mostrarMapa(){
-        var map;
-        var marcador;
-        var latitud = 40.515491;
-        var longitud = -3.666423;
-        mapa = new google.maps.Map(document.getElementById("footer_mapa"),{
-          center: {lat: latitud, lng: longitud},
-          zoom: 15
-        });
-        marcador = new google.maps.Marker({
-          position: {lat: latitud, lng: longitud},
-          map: mapa,
-        })
-      };
-
-</script>
+ 
 </body>
 </html>
