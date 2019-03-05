@@ -9,7 +9,7 @@
  
 
  
-/* ESTILOS SECION MUST HAVE. */
+/* ESTILOS SECION MUST HAVE. */ 
 .seccion{
 }
 
@@ -240,6 +240,7 @@
 
 .box_suscribete_popup form .btn_suscribirme{
   margin:20px 0 20px;
+  cursor:pointer;
 }
 
 
@@ -296,8 +297,14 @@
   background:none;
   font-size:25px;
   border:none;
-  padding:30px 10px;
-  
+  cursor:pointer;
+  padding:31px 10px;
+  transition:all 0.3s;
+}
+.box_suscribete #btn_enviar:hover{
+  background-color:black;
+  transition:all 0.3s;
+  color:white;
 }
 .wrap_form_suscribete {
   position:relative;
