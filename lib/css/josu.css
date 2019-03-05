@@ -1,6 +1,6 @@
 /* contacto.html */
 
-html{font-family: sans-serif;}
+
 .top{background-image: url(../../media/img/bg-contact-page.jpg);
     background-repeat: repeat; background-position: center center; background-size: cover; padding: 0 !important;}
 .info{width: 100%;}
@@ -27,13 +27,14 @@ html{font-family: sans-serif;}
 .social{padding: 10px 0;}
 .social i{font-size: 20px; margin-right:  25px;}
 .social i:hover{color: black;}
-nav i::before{display: none;}
+.contacto nav i::before{display: none;}
 
 /* Nosotros.html */
 
 .top2{ background-image: url(../../media/img/bg-title-about.jpg);
 background-repeat: no-repeat; background-position: center top; background-size: cover; padding: 0 !important;
 top: -20px;}
+.nosotros nav i::before{display: none;}
 .section{padding: 210px 70px 70px; margin: 0;}
 .eslogan{ color: #ffffff; font-size: 90px; font-weight: 400; line-height: 1em;}
 .about{margin: auto; padding: 80px 50px;}
