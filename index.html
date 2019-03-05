@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tineda Online</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
     <link rel="stylesheet" href="lib/css/all.min.css">
     <link rel="stylesheet" href="lib/css/bootstrap.min.css">
     <link rel="stylesheet" href="lib/css/style.css">
@@ -92,36 +92,38 @@
     </div>
 
 
-    <section class="box_suscribete_popup">
-        <div class="btn_cerrar">
-            <a href="#" onClick="">Cerrar</a>
-        </div>
-        <div class="wrap_content">
-            <div class="cont_text">
-                <p>Man Autumn Winter 2019</p>
-                <h2>Hoin our Newsletter & get 20% persale</h2>
-                <form action="">
-                    <div class="form-group">
-                        <label for=""></label>
-                        <input type="mail" placeholder="your email address...">
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" value="Subscribe me">
-                    </div>
-                    <div class="form-group">
-                        <input type="checkbox" name="" id="">
-                        <label for="">do no t show popup anymore</label>
-                    </div>
-                </form>
+    <section class="box_suscribete_popup d-none d-ms-none d-md-block">
+        <div class="wrap_content_all">
+            <div class="btn_cerrar">
+                <a href="#" onClick="cerrarPopup()">Cerrar</a>
             </div>
-            <div class="cont_image">
-                <img src="https://toro.la-studioweb.com/wp-content/uploads/2019/01/newletter-popup-422x489.jpg" alt="">
+            <div class="wrap_content">
+                <div class="cont_text">
+                    <p>Man Autumn Winter 2019</p>
+                    <h2>Hoin our Newsletter & get 20% persale</h2>
+                    <form action="">
+                        <div class="form-group">
+                            <label for=""></label>
+                            <input type="email" id="form_suscrip_email" required="required" placeholder="your email address...">
+                        </div>
+                        <div class="form-group btn_suscribirme" >
+                            <input type="submit" value="Subscribe me">
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="" id="form_suscrip_hide_popup">
+                            <label for="form_suscrip_hide_popup">Do no t show popup anymore</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="cont_image">
+                    <img src="https://toro.la-studioweb.com/wp-content/uploads/2019/01/newletter-popup-422x489.jpg" alt="">
+                </div>
             </div>
         </div>
     </section>
-
-
-    <footer></footer>
+        
+        
+        <footer></footer>
     <script src="lib/js/jquery-3.3.1.min.js"></script>
     <script src="lib/js/swiper.min.js"></script>
     <script src="lib/js/fontawesome.min.js"></script>
