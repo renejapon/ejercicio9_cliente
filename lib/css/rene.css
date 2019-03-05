@@ -8,7 +8,7 @@
 }
  
 
-
+ 
 /* ESTILOS SECION MUST HAVE. */
 .seccion{
 }
@@ -45,6 +45,10 @@
   position: absolute;
 }
 
+.section_must_have .row div:nth-child(1) article,.section_must_have .row div:nth-child(3) article{
+  margin-top:70px;
+}
+
 .section_must_have article .cont_icon_over div{
   display:inline-block;
   text-align: center;
@@ -57,10 +61,25 @@
   transition: all 0.3s ;
 }
 
-.section_must_have article .cont_icon_over div:first-child{
-  margin-left:30%;
-  margin-top:40%;
+.section_must_have article.over_large div{
+  padding:20px 60px 20px 20px;  
+  font-size:30px
 }
+.section_must_have article.over_large div:first-child{
+  padding:20px 57px 20px 27px;  
+}
+
+.section_must_have article .cont_icon_over div:first-child{
+  margin-left:36%;
+  margin-top:50%;
+}
+
+.section_must_have article.over_large div:first-child{
+  margin-left:17%;
+  margin-top:25%;
+}
+
+
 .section_must_have article .cont_icon_over div [class^="cont_"]{
   color:red;
 }
