@@ -5,6 +5,7 @@
 
 #container{
   overflow: hidden;
+  margin-top:55px;
 }
 
 .page-home section{
@@ -16,33 +17,53 @@
   height: 100%;
 }
 
+
+
+.section_hero nav li .active{
+  color:red;
+}
+
+
 .swiper-container {
   width: 100%;
   height: 100%;
 }
  .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-      width: 60%;
-      height: auto;
-    } 
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+  margin-right:100px;
+} 
+
+
 /* ESTILOS SECION MUST HAVE. */ 
 .seccion{
 }
+
+.my_popup{
+  width: 100%;
+  height: 100%;
+  position: absolute;  
+  border:1px solid red;
+}
+
+
 
 .section_must_have article img{
   width:100%;
@@ -343,7 +364,11 @@
   border:1px solid grey;
 }
 /* // ESTILOS SUSCRIBETE */
-
+ 
+.nav.item.active{
+  border-top:3px solid red;
+  border-bottom:3px solid red;
+}
 
 /* ESTILOS FOOTER. */
 footer {
