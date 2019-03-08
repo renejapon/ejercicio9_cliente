@@ -114,11 +114,11 @@
   						margin-right: 15px;
 					}
 			
-	.active, .accordion:hover 
+	.wrap_content_faqs .active, .accordion:hover 
 	{
 		background-color: #fde7e7; /* #ffeeee;  ccc menos subido*/
 	}
-	.active:after {
+	.wrap_content_faqs .active:after {
   					content: "\2212";
   					margin-right: 15px;
 					}
