@@ -2,71 +2,38 @@
 <html lang="es">
   <head>
     <title>My sample proyect </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="lib/css/styles.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>Esto es el header</h1>
-    <div class="menu">
-      <nav>
-        <ul>
-          <li><a href="#">Menu 1</a>
-          </li>
-          <li><a href="#">Menu 2</a>
-          </li>
-          <li><a href="#">Menu 3</a>
-            <ul class="sub_menu">
-              <li> <a href="#">SubMenu 1</a>
-              </li>
-              <li> <a href="#">SubMenu 2</a>
-              </li>
-              <li> <a href="#">SubMenu 3</a>
-                <ul class="sub_menu">
-                  <li> <a href="#">SubMenu 1</a></li>
-                  <li> <a href="#">SubMenu 2</a></li>
-                </ul>
-              </li>
-              <li> <a href="#">SubMenu 4</a>
-              </li>
-              <li> <a href="#">SubMenu 5</a>
-              </li>
-            </ul>
-          </li>
-          <li><a href="#">Menu 4</a>
-          </li>
-          <li><a href="#">Menu 5</a>
-          </li>
+    <h1>Hello world!!</h1>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header"><a href="#" class="navbar-brand">WebSiteLogo</a></div>
+        <ul class="nav navbar-nav flex-row">
+          <li class="active"><a href="#" data-pos="0" class="item-link">Home</a></li>
+          <li><a href="#" data-pos="1" class="item-link">Noticias</a></li>
+          <li><a href="#" data-pos="2" class="item-link">Servicios</a></li>
+          <li><a href="#" data-pos="3" class="item-link">Contacto</a></li>
+          <li><a href="#" data-pos="4" class="item-link">Nosotros</a></li>
+          <li><a href="#" data-pos="5" class="item-link">BLOG</a></li>
         </ul>
-      </nav>
-    </div>
-    <section class="seccion_hero">
-      <div class="row">
-        <div class="cont_hero">
-          <h1>My Article </h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae laborum tenetur commodi modi, assumenda quos possimus vel fuga aperiam eos, necessitatibus laboriosam cum dolorem n </p><a href="#">google</a>
-        </div>
-        <div class="cont_chart">
-          <hr>
-          <h3>Hello from cont chart</h3>
-          <div id="chart_pie"></div>
-          <hr>
-        </div>
       </div>
-    </section>
+    </nav>
+    <hr>
     <main role="main">
-      <div class="continer">
+      <div class="container">
         <section class="seccion_hero">
           <div class="row">
             <div class="cont_hero">
               <h1>Hello form maqueta</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae laborum tenetur commodi modi, assumenda quos possimus vel fuga aperiam eos, necessitatibus laboriosam cum dolorem n </p><a href="#">google</a>
             </div>
-            <div class="cont_chart">
-              <hr>
-              <h3>Hello from cont chart</h3>
-              <div id="chart_pie"></div>
-              <hr>
-            </div>
+            <div class="cont_chart"></div>
           </div>
         </section>
       </div>

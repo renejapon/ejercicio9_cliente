@@ -1,27 +1,26 @@
-h1 Esto es el header
-.menu
-
-    nav
-        ul
-            - for(var i = 1;i<6; i++){
-                li
-                    a(href="#") Menu #{i}
-                    - if(i==3){
-                    //- submenu 
-                    ul.sub_menu
-                        - for(var s = 1;s<6; s++){
-                        li  
-                            a(href="#") SubMenu #{s}
-                            - if(s==3){
-                            //- submenu 
-                            ul.sub_menu
-                                - for(var a = 1;a<3; a++){
-                                li  
-                                    a(href="#") SubMenu #{a}
-                                -}
-                            -}
-                        -}
-                    -}
+h1 Hello world!!
+nav.navbar.navbar-default
+    .container-fluid
+        .navbar-header
+            a.navbar-brand(href="#") WebSiteLogo
+        ul.nav.navbar-nav.flex-row
+            - var items_menu = [["Home","item-link"],["Noticias","item-link"],["Servicios","item-link"],["Contacto","item-link"],["Nosotros","item-link"],["BLOG","item-link"]];
+            - for(var i = 0;i<items_menu.length; i++){
+                -if(i==0){
+                    li.active
+                        a(href="#" data-pos="#{i}" class="#{items_menu[i][1]}") #{items_menu[i][0]}
+                -}else{
+                    li
+                        a(href="#" data-pos="#{i}" class="#{items_menu[i][1]}") #{items_menu[i][0]}
+                -}
+                    //- - if(items_menu[i][0] == "Nosotros"){
+                    //- //- submenu 
+                    //- ul.sub_menu
+                    //-     - var items_submenu = ["Director","Agente","Medico","Personalizada"];
+                    //-     - for(var s = 0;s<items_submenu.length; s++){
+                    //-     li  
+                    //-         a(href="#"  data-pos="#{s}" ) #{items_submenu[s]}
+                    //-     -}
+                    //- -}
             -}
-
-include ../components/seccion_hero.jade
+hr

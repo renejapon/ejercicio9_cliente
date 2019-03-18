@@ -11,10 +11,17 @@
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-replace": "^1.0.5",
+    "gulp-group-css-media-queries": "^1.2.2",
     "gulp-jade": "^1.1.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.1",
-    "gulp-watch": "^5.0.1"
+    "gulp-watch": "^5.0.1",
+    "rename": "^1.0.4"
   }
 }
